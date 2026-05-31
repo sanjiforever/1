@@ -13,13 +13,13 @@ from telebot.types import (
 # ══════════════════════════════════════════════
 #  ⚙️ SOZLAMALAR
 # ══════════════════════════════════════════════
-BOT_TOKEN  = os.environ.get("BOT_TOKEN", "BU_YERGA_TOKENINGIZ")
-ADMIN_IDS  = [int(os.environ.get("ADMIN_ID", "123456789"))]
-SHOP_NAME  = "UzShop"
+BOT_TOKEN  = os.environ.get("BOT_TOKEN", "8994441380:AAGlT8IxUSsEWv8MeRPfUNeSOv1O-KdqylA")
+ADMIN_IDS  = [int(os.environ.get("5830170101", "123456789"))]
+SHOP_NAME  = "NOKTA SHOP"
 CURRENCY   = "so'm"
-SUPPORT    = "@admin_username"
-DELIVERY_PRICE      = 15_000
-FREE_DELIVERY_FROM  = 500_000
+SUPPORT    = "@nokta_shop_admin"
+DELIVERY_PRICE      = 0
+FREE_DELIVERY_FROM  = 0
 PRODUCTS_PER_PAGE   = 6
 PROMO_CODES = {"YANGI10": 10, "SALE20": 20, "VIP30": 30}
 
