@@ -13,7 +13,7 @@ from telebot.types import (
 # ══════════════════════════════════════════════
 #  ⚙️ SOZLAMALAR
 # ══════════════════════════════════════════════
-BOT_TOKEN  = os.environ.get("8994441380:AAGlT8IxUSsEWv8MeRPfUNeSOv1O-KdqylA", "TOKEN_HERE")
+BOT_TOKEN  = os.environ.get("BOT_TOKEN", "8994441380:AAGlT8IxUSsEWv8MeRPfUNeSOv1O-KdqylA")
 ADMIN_IDS  = [int(os.environ.get("5830170101", "123456789"))]
 SHOP_NAME  = "NOKTA SHOP"
 CURRENCY   = "so'm"
