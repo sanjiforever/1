@@ -14,7 +14,7 @@ from telebot.types import (
 #  ⚙️  SOZLAMALAR
 # ══════════════════════════════════════════════════════
 BOT_TOKEN  = os.environ.get("BOT_TOKEN", "8994441380:AAGlT8IxUSsEWv8MeRPfUNeSOv1O-KdqylA")
-ADMIN_IDS  = [int(x) for x in os.environ.get("5830170101", "123456789").split(",")]
+ADMIN_IDS  = [int(x) for x in os.environ.get("123456789", "5830170101").split(",")]
 SHOP_NAME  = os.environ.get("SHOP_NAME", "KiyimShop")
 CURRENCY   = "so'm"
 SUPPORT    = os.environ.get("SUPPORT", "@nokta_shop_admin")
